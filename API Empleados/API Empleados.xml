@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API Empleados</name>
+    </assembly>
+    <members>
+        <member name="M:API_Empleados.Controllers.CargosController.ObtenerCargos">
+            <summary>
+            Obtener listado de Cargos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.CargosController.ObtenerCargo(System.Int32)">
+            <summary>
+            Obtener cargos individual por ID
+            </summary>
+            <param name="cargoId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.CargosController.ObtenerCargoPorDepartamento(System.Int32)">
+            <summary>
+            Obtener Cargo por su departamento
+            </summary>
+            <param name="departamentoId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.CargosController.CrearCargo(API_Empleados.Models.DTOs.CargoDto)">
+            <summary>
+            Crear un nuevo Cargo
+            </summary>
+            <param name="cargoDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.CargosController.ActualizarCargo(System.Int32,API_Empleados.Models.DTOs.CargoDto)">
+            <summary>
+            Actualizar Cargo existente
+            </summary>
+            <param name="cargoId"></param>
+            <param name="cargoDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.CargosController.BorrarCargo(System.Int32)">
+            <summary>
+            Borrar Cargo existente
+            </summary>
+            <param name="cargoId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.CargosController.BuscarCargo(System.String)">
+            <summary>
+            Buscar cargo por nombre
+            </summary>
+            <param name="NombreCargo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.DepartamentosController.ObtenerDepartamentos">
+            <summary>
+            Obtener Lista de Departamentos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.DepartamentosController.ObtenerDepartamento(System.Int32)">
+            <summary>
+            Obtener Departamento por ID
+            </summary>
+            <param name="departamentoId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.DepartamentosController.CrearDepartamento(API_Empleados.Models.DTOs.DepartamentoDto)">
+            <summary>
+            Crear nuevo Departamento
+            </summary>
+            <param name="departamentoDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.DepartamentosController.ActualizarDepartamento(System.Int32,API_Empleados.Models.DTOs.DepartamentoDto)">
+            <summary>
+            Actualizar Departamento Existente
+            </summary>
+            <param name="departamentoId"></param>
+            <param name="departamentoDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.DepartamentosController.BorrarDepartamento(System.Int32)">
+            <summary>
+            Eliminar Departamento existente
+            </summary>
+            <param name="departamentoId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.EmpleadosController.ObtenerEmpleados">
+            <summary>
+            Obtener el listado de los Empleados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.EmpleadosController.ObtenerEmpleado(System.Int32)">
+            <summary>
+            Obtener Empleado por ID
+            </summary>
+            <param name="empleadoId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.EmpleadosController.BuscarEmpleado(System.String)">
+            <summary>
+            Buscar Empleado por nombre
+            </summary>
+            <param name="nombre"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.EmpleadosController.ObtenerEmpleadosPorCargos(System.Int32)">
+            <summary>
+            Obtener Empleados por Cargos
+            </summary>
+            <param name="cargoId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.EmpleadosController.CrearEmpleado(API_Empleados.Models.DTOs.EmpleadoCrearDto)">
+            <summary>
+            Crear nuevo Empleado
+            </summary>
+            <param name="empleadoCrearDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.EmpleadosController.ActualizarEmpleado(System.Int32,API_Empleados.Models.DTOs.EmpleadoActualizarDto)">
+            <summary>
+            Actualizar Empleado existente
+            </summary>
+            <param name="empleadoId"></param>
+            <param name="empleadoActualizarDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.EmpleadosController.BorrarEmpleado(System.Int32)">
+            <summary>
+            Borrar Empleado existente
+            </summary>
+            <param name="empleadoId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.UsuarioController.ObtenerUsuarios">
+            <summary>
+            Obtener Listado de Usuarios Con Roles
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.UsuarioController.ObtenerUsuario(System.Int32)">
+            <summary>
+            Obtener Listado de Usuarios por ID
+            </summary>
+            <param name="usuarioId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.UsuarioController.Registrarse(API_Empleados.Models.DTOs.UsuarioRegistrarDto)">
+            <summary>
+            Registrar nuevo Usuario
+            </summary>
+            <param name="usuarioRegistrarDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_Empleados.Controllers.UsuarioController.Login(API_Empleados.Models.DTOs.UsuarioLoginDto)">
+            <summary>
+            Acceso/Autenticación de Usuario
+            </summary>
+            <param name="usuarioLoginDto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
